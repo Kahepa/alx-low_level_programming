@@ -28,8 +28,9 @@ char *leet(char *s)
 			{
 				s[stringCount] = leetNums[leetCount];
 			}
-			leetCount++;}
-			stringCount++;
+			leetCount++;
+		}
+		stringCount++;
 	}
 	return (s);
 }
