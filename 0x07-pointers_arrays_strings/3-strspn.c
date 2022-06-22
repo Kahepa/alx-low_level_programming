@@ -21,14 +21,14 @@ unsigned int _strspn(char *s, char *accept)
 		{
 			count1 = 0;
 			while (accept[count1] != '\0')
-																				{
-					if (accept[count1] == s[count])
-					{
-						/* increment if mathc is found */
-						match = match + 1;
-					}
-					count1++;
+			{
+				if (accept[count1] == s[count])
+				{
+					/* increment if mathc is found */
+					match = match + 1;
 				}
+				count1++;
+			}
 		}
 		else
 		return (match);
