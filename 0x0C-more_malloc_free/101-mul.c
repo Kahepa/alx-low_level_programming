@@ -3,8 +3,6 @@
 
 #define ERR_MSG "Error"
 
-int _isdigit(char *s);
-
 /**
  * main - takes two numbers as arguments and outputs the product.
  * @argc: the number of arguments including name of program.
