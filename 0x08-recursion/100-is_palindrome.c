@@ -1,12 +1,9 @@
 #include "main.h"
 
 /**
- *
  *_strlen_recursion - returns lenght of a string.
  *
  * @s: pointer to string.
- *
- *
  *
  * Return: lenght of string.
  *
@@ -25,7 +22,6 @@ int _strlen_recursion(char *s)
 
 
 /**
- *
  * elperFunction - check if palindrome.
  *
  * @s: pointer to string.
@@ -34,10 +30,7 @@ int _strlen_recursion(char *s)
  *
  * @li: lastIndex.
  *
- *
- *
  * Return: 0 if not palindrome, 1 if palindrome.
- *
  */
 
 int helperFunction(char *s, int fi, int li)
@@ -57,7 +50,6 @@ int helperFunction(char *s, int fi, int li)
 
 
 /**
- *
  * is_palindrome - checks if string is palindrome or not.
  *
  * @s: pointer to string.

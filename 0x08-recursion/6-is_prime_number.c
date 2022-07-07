@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- *
  * helperFunction - returns 0 or 1.
  *
  * @num: number being checked.
@@ -37,7 +36,6 @@ int helperFunction(int num, int i)
 
 
 /**
- *
  * is_prime_number - checks if number is prime or not.
  *
  * @n: number to be checked.
