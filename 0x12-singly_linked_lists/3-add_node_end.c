@@ -42,6 +42,6 @@ list_t *add_node_end(list_t **head, const char *str)
 		while (lastNode->next != NULL)
 			lastNode = lastNode->next;
 		lastNode->next = newNode;
-	}	
+	}
 	return (newNode);
 }
