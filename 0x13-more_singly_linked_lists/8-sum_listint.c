@@ -16,9 +16,4 @@ int sum_listint(listint_t *head)
 		head = head->next;
 	}
 	return (sum);
-}
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
 
